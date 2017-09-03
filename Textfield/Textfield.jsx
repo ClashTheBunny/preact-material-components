@@ -1,4 +1,4 @@
-import { h, Component } from "preact";
+import { createElement as h, Component } from "react";
 import MaterialComponent from "../MaterialComponent";
 import { MDCTextfield } from "@material/textfield/";
 
@@ -27,11 +27,7 @@ class Label extends MaterialComponent {
     this.componentName = "textfield__label";
   }
   materialDom(props) {
-    return (
-      <label {...props}>
-        {props.children}
-      </label>
-    );
+    return <label {...props}>{props.children}</label>;
   }
 }
 
@@ -76,24 +72,24 @@ class TextfieldInput extends MaterialComponent {
 
     return (
       <div className={className} ref={control => (this.control = control)}>
-        {props.multiline
-          ? <textarea
-              className="mdc-textfield__input"
-              {...props}
-            />
-          : <input
-              type={props.type || "text"}
-              className="mdc-textfield__input"
-              {...props}
-            />}
+        {props.multiline ? (
+          <textarea className="mdc-textfield__input" {...props} />
+        ) : (
+          <input
+            type={props.type || "text"}
+            className="mdc-textfield__input"
+            {...props}
+          />
+        )}
         {props.label &&
-          this.state.showFloatingLabel &&
+        this.state.showFloatingLabel && (
           <Label
             for={props.id}
             className={props.value && "mdc-textfield__label--float-above"}
           >
             {props.label}
-          </Label>}
+          </Label>
+        )}
       </div>
     );
   }
@@ -153,20 +149,25 @@ class Textfield extends Component {
       "validation-msg": helptextValidationMsg
     };
 
-    return showDiv
-      ? <div className={className}>
-          {props.label &&
-            !showFloatingLabel &&
-            <label for={props.id}>
-              {props.cssLabel || `${props.label}: `}
-            </label>}
-          <TextfieldInput {...props} aria-controls={props.helptext && props.id + "-helptext"} />
-          {props.helptext &&
-            <Helptext id={props.id + "-helptext"} {...helptextProps}>
-              {props.helptext}
-            </Helptext>}
-        </div>
-      : <TextfieldInput {...props} className={className} />;
+    return showDiv ? (
+      <div className={className}>
+        {props.label &&
+        !showFloatingLabel && (
+          <label for={props.id}>{props.cssLabel || `${props.label}: `}</label>
+        )}
+        <TextfieldInput
+          {...props}
+          aria-controls={props.helptext && props.id + "-helptext"}
+        />
+        {props.helptext && (
+          <Helptext id={props.id + "-helptext"} {...helptextProps}>
+            {props.helptext}
+          </Helptext>
+        )}
+      </div>
+    ) : (
+      <TextfieldInput {...props} className={className} />
+    );
   }
 }
 

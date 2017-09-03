@@ -1,4 +1,4 @@
-import { h } from "preact";
+import { createElement as h } from "react";
 import MaterialComponent from "../MaterialComponent";
 import { MDCSimpleMenu } from "@material/menu";
 import List from "../List";

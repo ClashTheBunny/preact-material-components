@@ -1,4 +1,4 @@
-import { h, Component } from "preact";
+import { createElement as h, Component } from "react";
 import { MDCRipple } from "@material/ripple";
 
 /**

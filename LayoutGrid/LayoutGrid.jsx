@@ -1,4 +1,4 @@
-import { h } from "preact";
+import { createElement as h } from "react";
 import MaterialComponent from "../MaterialComponent";
 
 class LayoutGrid extends MaterialComponent {

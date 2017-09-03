@@ -10,7 +10,6 @@ for (let component in bundleMapping) {
   if (fs.existsSync(filePath)) {
     const transformedCode = babel.transformFileSync(filePath, {
       plugins: [
-        ["transform-react-jsx", { pragma: "h" }],
         "transform-object-rest-spread"
       ]
     });
