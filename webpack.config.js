@@ -9,7 +9,7 @@ const extractCSS = new ExtractTextPlugin('[name].css');
 const config = {
 	entry: {
 	 app: './src/app.jsx',
-	 vendor: ['react']
+	 vendor: ['react', 'react-dom']
 	},
 	output: {
 		path: __dirname + '/public',
