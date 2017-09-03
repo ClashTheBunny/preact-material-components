@@ -1,5 +1,5 @@
-import {h, Component} from 'preact';
-import Button from 'preact-material-components/Button';
+import { createElement as h, Component } from "react";
+import Button from 'react-material-components-web-thin/Button';
 import ComponentTable from '../ComponentTable.jsx';
 import CodeBlock from '../CodeBlock.jsx';
 import './ButtonsPage.css';

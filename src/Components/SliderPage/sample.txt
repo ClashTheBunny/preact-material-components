@@ -1,6 +1,6 @@
-import {h, Component} from 'preact';
-import Slider from 'preact-material-components/Slider';
-import 'preact-material-components/Slider/style.css';
+import { createElement as h, Component } from "react";
+import Slider from 'react-material-components-web-thin/Slider';
+import 'react-material-components-web-thin/Slider/style.css';
 
 export default class SnackbarPage extends Component {
   render(){

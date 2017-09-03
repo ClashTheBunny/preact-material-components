@@ -1,7 +1,8 @@
-import {h, render} from 'preact';
+import { createElement } from 'react';
+import { render } from 'react-dom';
 import Home from './Components/Home/Home.jsx';
-import 'preact-material-components/Typography/style.css';
-import 'preact-material-components/Theme/style.css';
+import 'react-material-components-web-thin/Typography/style.css';
+import 'react-material-components-web-thin/Theme/style.css';
 import './app.css';
 render(
 	<Home/>

@@ -1,3 +1,3 @@
-# preact-material-components-site
+# react-material-components-web-thin-site
 
-Docs/demos for preact-material-components: https://prateekbh.github.io/preact-material-components/
+Docs/demos for react-material-components-web-thin: https://clashthebunny.github.io/react-material-components-web-thin/

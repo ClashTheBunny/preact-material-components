@@ -1,4 +1,4 @@
-import { h } from 'preact';
+import { createElement as h } from "react";
 import cx from 'classnames';
 import hljs from 'highlight.js/lib/highlight';
 import javascript from 'highlight.js/lib/languages/javascript';

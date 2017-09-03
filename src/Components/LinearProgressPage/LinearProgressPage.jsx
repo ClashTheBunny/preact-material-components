@@ -1,5 +1,5 @@
-import {h, Component} from 'preact';
-import LinearProgress from 'preact-material-components/LinearProgress';
+import { createElement as h, Component } from "react";
+import LinearProgress from 'react-material-components-web-thin/LinearProgress';
 import ComponentTable from '../ComponentTable.jsx';
 import './LinearProgressPage.css';
 import CodeBlock from '../CodeBlock.jsx';

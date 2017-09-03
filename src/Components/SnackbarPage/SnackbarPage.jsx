@@ -1,6 +1,6 @@
-import {h, Component} from 'preact';
-import Snackbar from 'preact-material-components/Snackbar';
-import Button from 'preact-material-components/Button';
+import { createElement as h, Component } from "react";
+import Snackbar from 'react-material-components-web-thin/Snackbar';
+import Button from 'react-material-components-web-thin/Button';
 import ComponentTable from '../ComponentTable.jsx';
 import './SnackbarPage.css';
 import CodeBlock from '../CodeBlock.jsx';

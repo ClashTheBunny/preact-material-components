@@ -1,6 +1,6 @@
-import {h, Component} from 'preact';
-import Fab from 'preact-material-components/Fab';
-import Icon from 'preact-material-components/Icon';
+import { createElement as h, Component } from "react";
+import Fab from 'react-material-components-web-thin/Fab';
+import Icon from 'react-material-components-web-thin/Icon';
 import ComponentTable from '../ComponentTable.jsx';
 import './FabPage.css';
 import CodeBlock from '../CodeBlock.jsx';

@@ -1,5 +1,5 @@
-import {h, Component} from 'preact';
-import Textfield from 'preact-material-components/Textfield';
+import { createElement as h, Component } from "react";
+import Textfield from 'react-material-components-web-thin/Textfield';
 import ComponentTable from '../ComponentTable.jsx';
 import './TextfieldPage.css';
 import CodeBlock from '../CodeBlock.jsx';

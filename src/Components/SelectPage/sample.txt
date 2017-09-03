@@ -1,8 +1,8 @@
-import {h, Component} from 'preact';
-import Select from 'preact-material-components/Select';
-import 'preact-material-components/List/style.css';
-import 'preact-material-components/Menu/style.css';
-import 'preact-material-components/Select/style.css';
+import { createElement as h, Component } from "react";
+import Select from 'react-material-components-web-thin/Select';
+import 'react-material-components-web-thin/List/style.css';
+import 'react-material-components-web-thin/Menu/style.css';
+import 'react-material-components-web-thin/Select/style.css';
 
 export default class SelectPage extends Component {
   render(){

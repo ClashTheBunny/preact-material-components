@@ -1,5 +1,5 @@
-import {h, Component} from 'preact';
-import Switch from 'preact-material-components/Switch';
+import { createElement as h, Component } from "react";
+import Switch from 'react-material-components-web-thin/Switch';
 import ComponentTable from '../ComponentTable.jsx';
 import './SwitchPage.css';
 import CodeBlock from '../CodeBlock.jsx';

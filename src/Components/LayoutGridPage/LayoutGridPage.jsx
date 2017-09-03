@@ -1,5 +1,5 @@
-import {h, Component} from 'preact';
-import LayoutGrid from 'preact-material-components/LayoutGrid';
+import { createElement as h, Component } from "react";
+import LayoutGrid from 'react-material-components-web-thin/LayoutGrid';
 import ComponentTable from '../ComponentTable.jsx';
 import './LayoutGridPage.css';
 import CodeBlock from '../CodeBlock.jsx';

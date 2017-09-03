@@ -1,5 +1,5 @@
-import {h, Component} from 'preact';
-import Icon from 'preact-material-components/Icon';
+import { createElement as h, Component } from "react";
+import Icon from 'react-material-components-web-thin/Icon';
 import ComponentTable from '../ComponentTable.jsx';
 import './IconPage.css';
 import CodeBlock from '../CodeBlock.jsx';

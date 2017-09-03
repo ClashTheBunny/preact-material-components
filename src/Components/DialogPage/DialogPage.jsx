@@ -1,7 +1,7 @@
-import {h, Component} from 'preact';
-import Dialog from 'preact-material-components/Dialog';
-import Button from 'preact-material-components/Button';
-import List from 'preact-material-components/List';
+import { createElement as h, Component } from "react";
+import Dialog from 'react-material-components-web-thin/Dialog';
+import Button from 'react-material-components-web-thin/Button';
+import List from 'react-material-components-web-thin/List';
 import ComponentTable from '../ComponentTable.jsx';
 import './DialogPage.css';
 import CodeBlock from '../CodeBlock.jsx';

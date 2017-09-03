@@ -9,7 +9,7 @@ const extractCSS = new ExtractTextPlugin('[name].css');
 const config = {
 	entry: {
 	 app: './src/app.jsx',
-	 vendor: ['preact']
+	 vendor: ['react']
 	},
 	output: {
 		path: __dirname + '/public',
@@ -26,9 +26,7 @@ const config = {
 				loader: 'babel-loader',
 				test: /\.(js|jsx)$/,
 				options: {
-					presets: [['es2015', {"modules": false}]],
 					plugins:[
-						["transform-react-jsx", { "pragma": "h" }],
 						"transform-object-rest-spread"
 					]
 				}
@@ -43,6 +41,9 @@ const config = {
 		]
 	},
 	plugins: [
+    new webpack.ProvidePlugin({
+      "React": "react",
+    }),
 		new CleanWebpackPlugin('./public'),
 		new webpack.optimize.CommonsChunkPlugin({
 			name: 'vendor',

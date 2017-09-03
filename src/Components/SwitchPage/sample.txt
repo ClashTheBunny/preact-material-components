@@ -1,6 +1,6 @@
-import {h, Component} from 'preact';
-import Switch from 'preact-material-components/Switch';
-import 'preact-material-components/Switch/style.css';
+import { createElement as h, Component } from "react";
+import Switch from 'react-material-components-web-thin/Switch';
+import 'react-material-components-web-thin/Switch/style.css';
 
 export default class SwitchPage extends Component {
   render(){

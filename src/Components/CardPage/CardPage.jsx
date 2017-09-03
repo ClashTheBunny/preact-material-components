@@ -1,5 +1,5 @@
-import {h, Component} from 'preact';
-import Card from 'preact-material-components/Card';
+import { createElement as h, Component } from "react";
+import Card from 'react-material-components-web-thin/Card';
 import ComponentTable from '../ComponentTable.jsx';
 import './CardPage.css';
 import CodeBlock from '../CodeBlock.jsx';

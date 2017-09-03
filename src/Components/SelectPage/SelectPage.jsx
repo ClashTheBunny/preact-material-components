@@ -1,5 +1,5 @@
-import {h, Component} from 'preact';
-import Select from 'preact-material-components/Select';
+import { createElement as h, Component } from "react";
+import Select from 'react-material-components-web-thin/Select';
 import ComponentTable from '../ComponentTable.jsx';
 import EventsTable from '../EventsTable.jsx';
 import './SelectPage.css';
@@ -89,8 +89,8 @@ export default class SelectPage extends Component {
 				<div className="mdc-typography--body">
 					<div>
 						If you are using this component individually, DO NOT FORGET to import
-						<i> 'preact-material-components/Menu/style.css'</i> and
-						<i> 'preact-material-components/List/style.css'</i>
+						<i> 'react-material-components-web-thin/Menu/style.css'</i> and
+						<i> 'react-material-components-web-thin/List/style.css'</i>
 					</div>
 				</div>
 			</div>

@@ -1,7 +1,7 @@
-import {h, Component} from 'preact';
-import Checkbox from 'preact-material-components/Checkbox';
-import FormField from 'preact-material-components/FormField';
-import 'preact-material-components/Checkbox/style.css';
+import { createElement as h, Component } from "react";
+import Checkbox from 'react-material-components-web-thin/Checkbox';
+import FormField from 'react-material-components-web-thin/FormField';
+import 'react-material-components-web-thin/Checkbox/style.css';
 
 export default class CheckboxPage extends Component {
   render(){

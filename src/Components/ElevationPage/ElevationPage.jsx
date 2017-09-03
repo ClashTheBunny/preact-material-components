@@ -1,5 +1,5 @@
-import {h, Component} from 'preact';
-import Elevation from 'preact-material-components/Elevation';
+import { createElement as h, Component } from "react";
+import Elevation from 'react-material-components-web-thin/Elevation';
 import ComponentTable from '../ComponentTable.jsx';
 import './ElevationPage.css';
 import CodeBlock from '../CodeBlock.jsx';

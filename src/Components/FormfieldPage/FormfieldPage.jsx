@@ -1,6 +1,6 @@
-import {h, Component} from 'preact';
-import Radio from 'preact-material-components/Radio';
-import Formfield from 'preact-material-components/Formfield';
+import { createElement as h, Component } from "react";
+import Radio from 'react-material-components-web-thin/Radio';
+import Formfield from 'react-material-components-web-thin/Formfield';
 import ComponentTable from '../ComponentTable.jsx';
 import './FormfieldPage.css';
 import CodeBlock from '../CodeBlock.jsx';

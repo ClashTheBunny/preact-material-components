@@ -1,6 +1,6 @@
-import {h, Component} from 'preact';
-import Tabs from 'preact-material-components/Tabs';
-import 'preact-material-components/Tabs/style.css';
+import { createElement as h, Component } from "react";
+import Tabs from 'react-material-components-web-thin/Tabs';
+import 'react-material-components-web-thin/Tabs/style.css';
 
 export default class TabsPage extends Component {
   render(){

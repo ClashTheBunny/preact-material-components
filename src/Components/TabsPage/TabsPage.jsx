@@ -1,6 +1,6 @@
-import {h, Component} from 'preact';
-import Tabs from 'preact-material-components/Tabs';
-import Icon from 'preact-material-components/Icon';
+import { createElement as h, Component } from "react";
+import Tabs from 'react-material-components-web-thin/Tabs';
+import Icon from 'react-material-components-web-thin/Icon';
 import ComponentTable from '../ComponentTable.jsx';
 import CodeBlock from '../CodeBlock.jsx';
 import sample from './sample.txt';

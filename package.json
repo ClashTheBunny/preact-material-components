@@ -1,7 +1,7 @@
 {
-  "name": "preact-material-components-site",
+  "name": "react-material-components-web-thin-site",
   "version": "1.0.1",
-  "description": "preact material component's site",
+  "description": "react material component's site",
   "scripts": {
     "start": "http-server .",
     "build": "webpack -p",
@@ -11,15 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prateekbh/preact-material-components.git"
+    "url": "git+https://github.com/clashthebunny/react-material-components-web-thin.git"
   },
   "keywords": [
-    "preact",
-    "preact components",
+    "react",
+    "react components",
     "material components",
     "material design"
   ],
   "maintainers": [
+    {
+      "name": "Randall Mason",
+      "email": "clashthebunny@gmail.com"
+    },
     {
       "name": "Prateek Bhatnagar",
       "email": "prateek89born@gmail.com"
@@ -39,9 +43,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/prateekbh/preact-material-components/issues"
+    "url": "https://github.com/clashthebunny/react-material-components-web-thin/issues"
   },
-  "homepage": "https://github.com/prateekbh/preact-material-components#readme",
+  "homepage": "https://github.com/clashthebunny/react-material-components-web-thin#readme",
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.25.0",
@@ -75,11 +79,12 @@
     "postcss-nested": "^2.1.0",
     "postcss-smart-import": "^0.7.5",
     "pre-commit": "^1.2.2",
-    "preact": "^8.2.1",
-    "preact-material-components": "^1.1.5",
     "precss": "^2.0.0",
     "prettier": "^1.5.3",
     "raw-loader": "^0.5.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-material-components-web-thin": "^1.1.6",
     "style-loader": "^0.18.2",
     "webpack": "^3.4.1"
   },

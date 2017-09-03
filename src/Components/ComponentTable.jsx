@@ -1,4 +1,4 @@
-import {h, Component} from 'preact';
+import { createElement as h, Component } from "react";
 
 export default class ComponentTable extends Component {
 	render(){

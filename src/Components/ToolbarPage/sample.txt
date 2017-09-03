@@ -1,6 +1,6 @@
-import {h, Component} from 'preact';
-import Toolbar from 'preact-material-components/Toolbar';
-import 'preact-material-components/Toolbar/style.css';
+import { createElement as h, Component } from "react";
+import Toolbar from 'react-material-components-web-thin/Toolbar';
+import 'react-material-components-web-thin/Toolbar/style.css';
 
 export default class ToolbarPage extends Component {
   render(){

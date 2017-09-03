@@ -1,5 +1,5 @@
-import {h, Component} from 'preact';
-import Toolbar from 'preact-material-components/Toolbar';
+import { createElement as h, Component } from "react";
+import Toolbar from 'react-material-components-web-thin/Toolbar';
 import ComponentTable from '../ComponentTable.jsx';
 import './ToolbarPage.css';
 import CodeBlock from '../CodeBlock.jsx';
