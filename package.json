@@ -1,5 +1,5 @@
 {
-  "name": "react-material-components-web-thin",
+  "name": "react-material-components-thin",
   "version": "1.1.6",
   "description": "react wrapper for \"Material Components for the web\"",
   "module": "index.js",

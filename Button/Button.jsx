@@ -1,4 +1,5 @@
 import MaterialComponent from "../MaterialComponent";
+import React from "react";
 
 /**
  *  @prop dense = false

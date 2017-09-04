@@ -1,4 +1,5 @@
 import { createElement as h } from "react";
+import React from "react";
 import MaterialComponent from "../MaterialComponent";
 import { MDCDialog } from "@material/dialog/";
 import Button from "../Button";

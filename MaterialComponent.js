@@ -1,4 +1,4 @@
-import { createElement as h, Component } from "react";
+import React, { createElement as h, createElement, Component } from "react";
 import { MDCRipple } from "@material/ripple";
 
 /**
@@ -57,14 +57,14 @@ export default class MaterialComponent extends Component {
     this.buildClassName();
     // Fetch a VNode
     const element = this.materialDom(this.props);
-    element.attributes = element.attributes || {};
+    // element.attributes = element.attributes || {};
     // Fix for className
-    element.attributes.class = this.getClassName(element);
-    element.attributes.className = this.getClassName(element);
+    // element.attributes.class = this.getClassName(element);
+    // element.attributes.className = this.getClassName(element);
     // Clean this shit of proxy attributes
-    this._mdcProps.forEach(prop => {
-      delete element.attributes[prop];
-    });
+    // this._mdcProps.forEach(prop => {
+    //   delete element.attributes[prop];
+    // });
     return element;
   }
 }
