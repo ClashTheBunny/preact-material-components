@@ -1,7 +1,7 @@
 import { createElement as h, Component } from "react";
-import Checkbox from 'react-material-components-web-thin/Checkbox';
-import Button from 'react-material-components-web-thin/Button';
-import FormField from 'react-material-components-web-thin/FormField';
+import Checkbox from 'react-material-components-thin/Checkbox';
+import Button from 'react-material-components-thin/Button';
+import FormField from 'react-material-components-thin/FormField';
 import ComponentTable from '../ComponentTable.jsx';
 import './CheckboxPage.css';
 import CodeBlock from '../CodeBlock.jsx';

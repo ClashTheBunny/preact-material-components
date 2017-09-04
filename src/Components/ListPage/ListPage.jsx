@@ -1,5 +1,5 @@
 import { createElement as h, Component } from "react";
-import List from 'react-material-components-web-thin/List';
+import List from 'react-material-components-thin/List';
 import ComponentTable from '../ComponentTable.jsx';
 import './ListPage.css';
 import CodeBlock from '../CodeBlock.jsx';

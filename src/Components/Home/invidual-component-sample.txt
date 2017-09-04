@@ -1,1 +1,1 @@
-import {Button, Fab, Snackbar} from 'react-material-components-web-thin';
+import {Button, Fab, Snackbar} from 'react-material-components-thin';

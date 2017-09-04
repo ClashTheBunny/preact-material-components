@@ -1,6 +1,6 @@
 import { createElement as h, Component } from "react";
-import Fab from 'react-material-components-web-thin/Fab';
-import 'react-material-components-web-thin/Fab/style.css';
+import Fab from 'react-material-components-thin/Fab';
+import 'react-material-components-thin/Fab/style.css';
 
 export default class FabPage extends Component {
   render(){

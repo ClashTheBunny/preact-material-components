@@ -1,3 +1,3 @@
-import Radio from 'react-material-components-web-thin/Radio';
-import FormField from 'react-material-components-web-thin/FormField';
-import Button from 'react-material-components-web-thin/Button';
+import Radio from 'react-material-components-thin/Radio';
+import FormField from 'react-material-components-thin/FormField';
+import Button from 'react-material-components-thin/Button';

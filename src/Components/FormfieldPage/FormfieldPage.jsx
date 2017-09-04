@@ -1,6 +1,6 @@
 import { createElement as h, Component } from "react";
-import Radio from 'react-material-components-web-thin/Radio';
-import Formfield from 'react-material-components-web-thin/Formfield';
+import Radio from 'react-material-components-thin/Radio';
+import Formfield from 'react-material-components-thin/Formfield';
 import ComponentTable from '../ComponentTable.jsx';
 import './FormfieldPage.css';
 import CodeBlock from '../CodeBlock.jsx';

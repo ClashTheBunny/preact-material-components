@@ -1,5 +1,5 @@
 import { createElement as h, Component } from "react";
-import Icon from 'react-material-components-web-thin/Icon';
+import Icon from 'react-material-components-thin/Icon';
 import ComponentTable from '../ComponentTable.jsx';
 import './IconPage.css';
 import CodeBlock from '../CodeBlock.jsx';

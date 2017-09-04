@@ -1,6 +1,6 @@
 import { createElement as h, Component } from "react";
-import LayoutGrid from 'react-material-components-web-thin/LayoutGrid';
-import 'react-material-components-web-thin/LayoutGrid/style.css';
+import LayoutGrid from 'react-material-components-thin/LayoutGrid';
+import 'react-material-components-thin/LayoutGrid/style.css';
 
 export default class LayoutGridPage extends Component {
   render(){

@@ -1,6 +1,6 @@
 import { createElement as h, Component } from "react";
-import Tabs from 'react-material-components-web-thin/Tabs';
-import Icon from 'react-material-components-web-thin/Icon';
+import Tabs from 'react-material-components-thin/Tabs';
+import Icon from 'react-material-components-thin/Icon';
 import ComponentTable from '../ComponentTable.jsx';
 import CodeBlock from '../CodeBlock.jsx';
 import sample from './sample.txt';

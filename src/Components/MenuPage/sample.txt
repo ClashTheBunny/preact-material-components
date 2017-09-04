@@ -1,9 +1,9 @@
 import { createElement as h, Component } from "react";
-import Menu from 'react-material-components-web-thin/Menu';
-import Button from 'react-material-components-web-thin/Button';
-import 'react-material-components-web-thin/List/style.css';
-import 'react-material-components-web-thin/Menu/style.css';
-import 'react-material-components-web-thin/Button/style.css';
+import Menu from 'react-material-components-thin/Menu';
+import Button from 'react-material-components-thin/Button';
+import 'react-material-components-thin/List/style.css';
+import 'react-material-components-thin/Menu/style.css';
+import 'react-material-components-thin/Button/style.css';
 
 export default class MenuPage extends Component {
   render(){

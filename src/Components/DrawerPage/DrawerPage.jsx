@@ -1,5 +1,5 @@
 import { createElement as h, Component } from "react";
-import Drawer from 'react-material-components-web-thin/Drawer';
+import Drawer from 'react-material-components-thin/Drawer';
 import ComponentTable from '../ComponentTable.jsx';
 import EventsTable from '../EventsTable.jsx';
 import './DrawerPage.css';

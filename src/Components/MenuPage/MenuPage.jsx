@@ -1,6 +1,6 @@
 import { createElement as h, Component } from "react";
-import Menu from 'react-material-components-web-thin/Menu';
-import Button from 'react-material-components-web-thin/Button';
+import Menu from 'react-material-components-thin/Menu';
+import Button from 'react-material-components-thin/Button';
 import ComponentTable from '../ComponentTable.jsx';
 import CodeBlock from '../CodeBlock.jsx';
 import './MenuPage.css';
@@ -70,7 +70,7 @@ export default class MenuPage extends Component {
 				<div className="mdc-typography--body">
 					<div>
 						If you are using this component individually, DO NOT FORGET to import
-						<i> 'react-material-components-web-thin/List/style.css'</i>
+						<i> 'react-material-components-thin/List/style.css'</i>
 					</div>
 				</div>
 			</div>

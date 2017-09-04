@@ -1,6 +1,6 @@
 import { createElement as h, Component } from "react";
-import Fab from 'react-material-components-web-thin/Fab';
-import Icon from 'react-material-components-web-thin/Icon';
+import Fab from 'react-material-components-thin/Fab';
+import Icon from 'react-material-components-thin/Icon';
 import ComponentTable from '../ComponentTable.jsx';
 import './FabPage.css';
 import CodeBlock from '../CodeBlock.jsx';

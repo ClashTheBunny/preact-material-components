@@ -84,7 +84,7 @@
     "raw-loader": "^0.5.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-material-components-web-thin": "^1.1.6",
+    "react-material-components-thin": "^1.1.6",
     "style-loader": "^0.18.2",
     "webpack": "^3.4.1"
   },

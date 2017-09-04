@@ -1,6 +1,6 @@
 import { createElement as h, Component } from "react";
-import Textfield from 'react-material-components-web-thin/Textfield';
-import 'react-material-components-web-thin/Textfield/style.css';
+import Textfield from 'react-material-components-thin/Textfield';
+import 'react-material-components-thin/Textfield/style.css';
 
 export default class TextfieldPage extends Component {
   render(){

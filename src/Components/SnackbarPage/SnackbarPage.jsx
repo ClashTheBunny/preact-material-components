@@ -1,6 +1,6 @@
 import { createElement as h, Component } from "react";
-import Snackbar from 'react-material-components-web-thin/Snackbar';
-import Button from 'react-material-components-web-thin/Button';
+import Snackbar from 'react-material-components-thin/Snackbar';
+import Button from 'react-material-components-thin/Button';
 import ComponentTable from '../ComponentTable.jsx';
 import './SnackbarPage.css';
 import CodeBlock from '../CodeBlock.jsx';

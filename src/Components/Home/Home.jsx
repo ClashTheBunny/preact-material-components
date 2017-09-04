@@ -1,10 +1,10 @@
 import { createElement as h, Component } from "react";
-import Toolbar from 'react-material-components-web-thin/Toolbar';
-import Drawer from 'react-material-components-web-thin/Drawer';
-import List from 'react-material-components-web-thin/List';
-import Switch from 'react-material-components-web-thin/Switch';
-import FormField from 'react-material-components-web-thin/FormField';
-import LayoutGrid from 'react-material-components-web-thin/LayoutGrid';
+import Toolbar from 'react-material-components-thin/Toolbar';
+import Drawer from 'react-material-components-thin/Drawer';
+import List from 'react-material-components-thin/List';
+import Switch from 'react-material-components-thin/Switch';
+import FormField from 'react-material-components-thin/FormField';
+import LayoutGrid from 'react-material-components-thin/LayoutGrid';
 import ButtonsPage from '../ButtonsPage/ButtonsPage.jsx';
 import FabPage from '../FabPage/FabPage.jsx';
 import CheckboxPage from '../CheckboxPage/CheckboxPage.jsx';
@@ -32,7 +32,7 @@ import CodeBlock from '../CodeBlock.jsx';
 import invidualComponentSample from './invidual-component-sample.txt';
 import jsSample from './js-sample.txt';
 import cssSample from './css-sample.txt';
-import 'react-material-components-web-thin/style.css';
+import 'react-material-components-thin/style.css';
 import './Home.css';
 
 export default class Home extends Component {
@@ -115,7 +115,7 @@ export default class Home extends Component {
 							</g>
 						</g>
 					</svg>
-					<div className="mdc-typography--display2 name">react-material-components-web-thin</div>
+					<div className="mdc-typography--display2 name">react-material-components-thin</div>
 				</div>
 				<Drawer.TemporaryDrawer ref={drawer=>{this.drawer = drawer;}} >
 					<Drawer.TemporaryDrawerHeader className="mdc-theme--primary-bg">
@@ -315,18 +315,18 @@ export default class Home extends Component {
 								<div>
 									<div className="mdc-typography--body">
 										<div>
-											<a href="https://github.com/clashthebunny/react-material-components-web-thin"><span className="grey">react-material-components-web-thin</span></a> is a thin opinionless wrapper around <a href="https://github.com/material-components/material-components-web">material-components-web</a>.
+											<a href="https://github.com/clashthebunny/react-material-components-thin"><span className="grey">react-material-components-thin</span></a> is a thin opinionless wrapper around <a href="https://github.com/material-components/material-components-web">material-components-web</a>.
 											Use these components to add material components to your web app, without worrying about the extra code of components which you are not using.
 										</div>
 										<div className="mdc-typography--display1">How to use</div>
 										<div>
-											All the components of <span className="grey">react-material-components-web-thin</span> are built to work independently.
+											All the components of <span className="grey">react-material-components-thin</span> are built to work independently.
 											 So there are couple of ways to use them.
 										</div>
 										<div>
 											<CodeBlock>
 												<code class='lang-js' >
-													npm i -D react-material-components-web-thin
+													npm i -D react-material-components-thin
 												</code>
 											</CodeBlock>
 										</div>
@@ -361,7 +361,7 @@ export default class Home extends Component {
 												as it is more optimized for such cases.
 												<CodeBlock>
 													<code class='lang-js' >
-														import 'react-material-components-web-thin/style.css';
+														import 'react-material-components-thin/style.css';
 													</code>
 												</CodeBlock>
 											</div>

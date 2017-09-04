@@ -1,5 +1,5 @@
 import { createElement as h, Component } from "react";
-import LayoutGrid from 'react-material-components-web-thin/LayoutGrid';
+import LayoutGrid from 'react-material-components-thin/LayoutGrid';
 import ComponentTable from '../ComponentTable.jsx';
 import './LayoutGridPage.css';
 import CodeBlock from '../CodeBlock.jsx';

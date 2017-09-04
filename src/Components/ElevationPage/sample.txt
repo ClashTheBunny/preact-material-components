@@ -1,6 +1,6 @@
 import { createElement as h, Component } from "react";
-import Elevation from 'react-material-components-web-thin/Elevation';
-import 'react-material-components-web-thin/Elevation/style.css';
+import Elevation from 'react-material-components-thin/Elevation';
+import 'react-material-components-thin/Elevation/style.css';
 
 export default class ElevationPage extends Component {
   render(){

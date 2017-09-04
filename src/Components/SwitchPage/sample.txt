@@ -1,6 +1,6 @@
 import { createElement as h, Component } from "react";
-import Switch from 'react-material-components-web-thin/Switch';
-import 'react-material-components-web-thin/Switch/style.css';
+import Switch from 'react-material-components-thin/Switch';
+import 'react-material-components-thin/Switch/style.css';
 
 export default class SwitchPage extends Component {
   render(){
