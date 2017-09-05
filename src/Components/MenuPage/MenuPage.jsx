@@ -1,4 +1,5 @@
 import { createElement as h, Component } from "react";
+import React from 'react';
 import Menu from 'react-material-components-thin/Menu';
 import Button from 'react-material-components-thin/Button';
 import ComponentTable from '../ComponentTable.jsx';

@@ -1,4 +1,4 @@
-import { createElement } from 'react';
+import { createElement as h, createElement } from 'react';
 import React from 'react';
 import { render } from 'react-dom';
 import Home from './Components/Home/Home.jsx';

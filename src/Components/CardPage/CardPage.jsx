@@ -1,4 +1,5 @@
 import { createElement as h, Component } from "react";
+import React from 'react';
 import Card from 'react-material-components-thin/Card';
 import ComponentTable from '../ComponentTable.jsx';
 import './CardPage.css';

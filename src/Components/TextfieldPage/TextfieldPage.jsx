@@ -1,4 +1,5 @@
 import { createElement as h, Component } from "react";
+import React from 'react';
 import Textfield from 'react-material-components-thin/Textfield';
 import ComponentTable from '../ComponentTable.jsx';
 import './TextfieldPage.css';

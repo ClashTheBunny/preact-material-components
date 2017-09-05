@@ -1,4 +1,5 @@
 import { createElement as h, Component } from "react";
+import React from 'react';
 
 export default class EventsTable extends Component {
 	render(){

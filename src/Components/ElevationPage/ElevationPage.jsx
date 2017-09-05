@@ -1,4 +1,5 @@
 import { createElement as h, Component } from "react";
+import React from 'react';
 import Elevation from 'react-material-components-thin/Elevation';
 import ComponentTable from '../ComponentTable.jsx';
 import './ElevationPage.css';

@@ -1,4 +1,5 @@
 import { createElement as h, Component } from "react";
+import React from 'react';
 import IconToggle from 'react-material-components-thin/IconToggle';
 import ComponentTable from '../ComponentTable.jsx';
 import './IconToggle.css';

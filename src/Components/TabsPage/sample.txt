@@ -1,4 +1,5 @@
 import { createElement as h, Component } from "react";
+import React from 'react';
 import Tabs from 'react-material-components-thin/Tabs';
 import 'react-material-components-thin/Tabs/style.css';
 

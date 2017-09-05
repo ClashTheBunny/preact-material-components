@@ -1,4 +1,5 @@
 import { createElement as h, Component } from "react";
+import React from 'react';
 import Radio from 'react-material-components-thin/Radio';
 import FormField from 'react-material-components-thin/FormField';
 import ComponentTable from '../ComponentTable.jsx';

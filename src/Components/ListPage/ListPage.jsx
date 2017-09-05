@@ -1,4 +1,5 @@
 import { createElement as h, Component } from "react";
+import React from 'react';
 import List from 'react-material-components-thin/List';
 import ComponentTable from '../ComponentTable.jsx';
 import './ListPage.css';

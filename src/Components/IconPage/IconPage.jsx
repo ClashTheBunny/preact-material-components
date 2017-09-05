@@ -1,4 +1,5 @@
 import { createElement as h, Component } from "react";
+import React from 'react';
 import Icon from 'react-material-components-thin/Icon';
 import ComponentTable from '../ComponentTable.jsx';
 import './IconPage.css';

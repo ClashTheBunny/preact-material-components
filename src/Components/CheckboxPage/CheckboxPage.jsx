@@ -1,4 +1,5 @@
 import { createElement as h, Component } from "react";
+import React from 'react';
 import Checkbox from 'react-material-components-thin/Checkbox';
 import Button from 'react-material-components-thin/Button';
 import FormField from 'react-material-components-thin/FormField';

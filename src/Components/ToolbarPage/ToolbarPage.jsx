@@ -1,4 +1,5 @@
 import { createElement as h, Component } from "react";
+import React from 'react';
 import Toolbar from 'react-material-components-thin/Toolbar';
 import ComponentTable from '../ComponentTable.jsx';
 import './ToolbarPage.css';

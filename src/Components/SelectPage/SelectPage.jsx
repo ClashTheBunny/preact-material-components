@@ -1,4 +1,5 @@
 import { createElement as h, Component } from "react";
+import React from 'react';
 import Select from 'react-material-components-thin/Select';
 import ComponentTable from '../ComponentTable.jsx';
 import EventsTable from '../EventsTable.jsx';

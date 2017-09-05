@@ -1,4 +1,5 @@
 import { createElement as h, Component } from "react";
+import React from 'react';
 import LayoutGrid from 'react-material-components-thin/LayoutGrid';
 import ComponentTable from '../ComponentTable.jsx';
 import './LayoutGridPage.css';

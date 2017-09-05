@@ -1,4 +1,5 @@
 import { createElement as h, Component } from "react";
+import React from 'react';
 import Slider from 'react-material-components-thin/Slider';
 import ComponentTable from '../ComponentTable.jsx';
 import './SliderPage.css';

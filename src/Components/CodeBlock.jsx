@@ -1,4 +1,5 @@
 import { createElement as h } from "react";
+import React from 'react';
 import cx from 'classnames';
 import hljs from 'highlight.js/lib/highlight';
 import javascript from 'highlight.js/lib/languages/javascript';
