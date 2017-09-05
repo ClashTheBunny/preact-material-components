@@ -1,7 +1,7 @@
 import { createElement as h, Component } from "react";
 import React from 'react';
 import Radio from 'react-material-components-thin/Radio';
-import Formfield from 'react-material-components-thin/Formfield';
+import FormField from 'react-material-components-thin/FormField';
 import ComponentTable from '../ComponentTable.jsx';
 import './FormfieldPage.css';
 import CodeBlock from '../CodeBlock.jsx';
@@ -11,7 +11,7 @@ export default class FormfieldPage extends Component {
 		super();
 		this.propsTable = [
 			{
-				component: 'Formfield',
+				component: 'FormField',
 				props: []
 			}
 		];
@@ -35,10 +35,10 @@ export default class FormfieldPage extends Component {
 				</div>
 
 				<div className="mdc-typography--display1">Demo </div>
-				<Formfield>
+				<FormField>
 					<Radio id="r1" name='opts'></Radio>
 					<label for="r1">Radio 1</label>
-				</Formfield>
+				</FormField>
 
 			</div>
 		);
