@@ -1,5 +1,5 @@
 {
-  "name": "react-material-components-web-thin-site",
+  "name": "react-material-components-thin-site",
   "version": "1.0.1",
   "description": "react material component's site",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/clashthebunny/react-material-components-web-thin.git"
+    "url": "git+https://github.com/clashthebunny/react-material-components-thin.git"
   },
   "keywords": [
     "react",
@@ -43,9 +43,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/clashthebunny/react-material-components-web-thin/issues"
+    "url": "https://github.com/clashthebunny/react-material-components-thin/issues"
   },
-  "homepage": "https://github.com/clashthebunny/react-material-components-web-thin#readme",
+  "homepage": "https://github.com/clashthebunny/react-material-components-thin#readme",
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.25.0",

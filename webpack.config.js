@@ -26,7 +26,9 @@ const config = {
 				loader: 'babel-loader',
 				test: /\.(js|jsx)$/,
 				options: {
+          presets: [['es2015', {"modules": false}]],
 					plugins:[
+            ["transform-react-jsx", { "pragma": "h" }],
 						"transform-object-rest-spread"
 					]
 				}
